@@ -33,7 +33,7 @@ RIGHT = 4
 def main_game():
     pygame.init()
     screen=pygame.display.set_mode((windows_width,windows_height))
-    pygame.display.set_caption("요순이가 만든 지렁이게임")
+    pygame.display.set_caption("Snacky!")
     snake_speed_clock = pygame.time.Clock()
     screen.fill(white)
 
